@@ -1,13 +1,29 @@
-
-
-
 def area_triangulo():
     base = int(input("¿Cúal es la base? "))
     altura =int(input("¿Cúal es la altura?"))
     area = (base*altura)/2
     print("El area del triangulo es: "+ str(area))
 def pie_pap_tij():
-    pass
+    jugador_1=input("Jugador 1: Escoja entre piedra, papel o tijera: ")
+    jugador_2=input("Jugador 2: Escoja entre piedra, papel o tijera: ")
+    if  jugador_1== "tijera" and jugador_2 == "papel":
+        print("Ganador jugador 1")
+    elif jugador_1== "piedra" and jugador_2 == "tijera":
+        print("Ganador jugador 1")
+    elif jugador_1== "papel" and jugador_2 == "piedra":
+        print("Ganador jugador 1")
+    elif  jugador_2== "tijera" and jugador_1 == "papel":
+        print("Ganador jugador 2")
+    elif jugador_2== "piedra" and jugador_1 == "tijera":
+        print("Ganador jugador 2")
+    elif jugador_2== "papel" and jugador_1 == "piedra":
+        print("Ganador jugador 2")
+    elif jugador_2 == jugador_1:
+        print("Empate")
+    else:
+        print('La opción no es valida')
+
+
 def conv_millas_km():
     pass
 def cal_vol():
