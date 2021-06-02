@@ -39,7 +39,9 @@ def conv_millas_km():
     millas = int(input('ingrese la millas: '))
     print('Las millas ingresadas equivalen a: '+ str(millas*1.609344) + ' km')
 def cal_vol():
-    pass
+    altura = int(input('Ingrese la altura del cilindro: '))
+    radio = int(input('Ingrese el radio del cilindro: '))
+    print('El volumen del cilindro es: ' + str(3.1416*radio**2*altura) + 'm3')
 def ran_camb():
     pass
 
