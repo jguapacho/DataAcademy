@@ -36,7 +36,8 @@ def pie_pap_tij():
     else:
         print('El ganador es el jugador 2')
 def conv_millas_km():
-    pass
+    millas = int(input('ingrese la millas: '))
+    print('Las millas ingresadas equivalen a: '+ str(millas*1.609344) + ' km')
 def cal_vol():
     pass
 def ran_camb():
