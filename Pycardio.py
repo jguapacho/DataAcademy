@@ -43,7 +43,12 @@ def cal_vol():
     radio = int(input('Ingrese el radio del cilindro: '))
     print('El volumen del cilindro es: ' + str(3.1416*radio**2*altura) + 'm3')
 def ran_camb():
-    pass
+    lower_lim = int(input('Enter the lower limit: '))
+    upper_lim = int(input('Enter the upper limit: '))
+    comparison = int(input('Enter the comparison: '))
+    while comparison < lower_lim or comparison > upper_lim:
+        comparison = int(input('Ingrese otro numero: '))
+    
 
 def run():
     pass
